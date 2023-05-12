@@ -7,7 +7,7 @@ export default function LeaderBoard() {
             <h1 className='game-font text-white text-2xl mt-4 font-bold text-center mb-1'>Leaderboard</h1>
             <h3 className='game-font text-gray-400 text-sm font-bold text-center mb-6'>Our Top Gamers</h3>
             <div className='flex justify-center'>
-                <div className="grid gap-5 scroll-m-0 overflow-y-scroll h-[80vh] pb-16 scroll-smooth px-4">
+                <div className="grid md:gap-5 scroll-m-0 overflow-y-scroll h-[75vh] pb-16 scroll-smooth px-4">
 
                  <Card walletId="fnkdsnkjsdnvs" totalEth="49.0" chosenText="Heads" positionNumber="1" positionAph="st"/>
                  <Card walletId="fnkdsnkjsdnvs" totalEth="43.0" chosenText="Tails" positionNumber="2" positionAph="nd"/>

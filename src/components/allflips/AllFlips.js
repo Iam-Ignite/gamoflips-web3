@@ -4,9 +4,9 @@ import FlipCard from './FlipCard'
 function AllFlips() {
     return (
         <div className='flex justify-center items-center w-screen flex-col mt-9 px-4 md:px-16'>
-            <div className=" p-5 flex items-center relative justify-between rounded-md w-full text-white h-28">
+            <div className=" p-5 flex items-center relative justify-between rounded-md w-full text-[#FDE047] font-extrabold h-28">
                 <div className="flex flex-col items-center">
-                    <h1 className='text-white game-font text-[10px] md:text-[20px] '>Game ID</h1>
+                    <h1 className='text-[#FDE047] font-extrabold game-font text-[10px] md:text-[20px] '>Game ID</h1>
                 </div>
                 <div className="flex md:w-2/4 justify-between">
                     <div className="flex flex-col mr-8 items-center">

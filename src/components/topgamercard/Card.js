@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card({walletId, totalEth, chosenText, positionNumber, positionAph}) {
     return (
-        <div className="border p-5 flex items-center relative justify-between rounded-md  md:w-full text-white h-28">
+        <div className="border-2 border-[#FDE047]  to-blue-900 from-violet-800 bg-gradient-to-br  p-5 flex items-center relative justify-between rounded-md  md:w-full text-white h-28">
             <div className="absolute -bottom-2 bg-[#2469b7] game-font border px-3 -right-2 py-1">{positionNumber}<sup>{positionAph}</sup> </div>
             <div className="flex flex-col items-center">
                 <img src="/ethlogo.png" className='rounded-full h-10' alt="jknfdkj" />

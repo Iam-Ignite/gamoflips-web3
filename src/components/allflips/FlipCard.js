@@ -8,7 +8,7 @@ function FlipCard() {
         setIsCopied(true);
     };
     return (
-        <div className="border px-5 mb-2 flex items-center relative justify-between rounded-md w-full text-white h-16">
+        <div className="border-2 border-[#FDE047] to-blue-900 from-violet-800 bg-gradient-to-br px-5 mb-2 flex items-center relative justify-between rounded-md w-full text-white h-16">
             <div className="flex items-center md:gap-8">
                 <button onClick={() => handleCopyClick('text to copy')} className='cursor-pointer' title="copy">
                     {isCopied ? 'Copied!' : <svg xmlns="http://www.w3.org/2000/svg" title="copy" width="24" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" /></svg>}
